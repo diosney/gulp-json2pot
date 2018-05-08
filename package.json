@@ -1,0 +1,36 @@
+{
+  "name": "gulp-json2pot",
+  "version": "0.0.1",
+  "description": "Generate pot files from JSON keyed translation files via Gulp.",
+  "license": "MIT",
+  "author": {
+    "name": "Diosney Sarmiento",
+    "email": "diosney.s@gmail.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "pot",
+    "json",
+    "translation"
+  ],
+  "dependencies": {
+    "json2pot": "^0.0.1",
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3",
+    "vinyl": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diosney/gulp-json2pot.git"
+  },
+  "homepage": "https://github.com/diosney/gulp-json2pot",
+  "bugs": {
+    "url": "https://github.com/diosney/gulp-json2pot/issues"
+  }
+}
